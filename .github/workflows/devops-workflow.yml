@@ -8,7 +8,7 @@ on:
 env:
   RESOURCEGROUPNAME: "akscustomerdemos"
   LOCATION: "Central US"
-  KEYVAULTNAME: "secretstorecsiakv"
+  KEYVAULTNAME: "secretstorecsiakv0602"
   IMAGENAME: "secretstorecsiaksakv86bb"
   REGISTRYSKU: "Standard"
   REGISTRYNAME: "akscustomerdemos0602-acr"
