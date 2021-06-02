@@ -6,24 +6,24 @@ on:
       - main
 
 env:
-  RESOURCEGROUPNAME: "secret-store-csi-aks-akv-rg"
-  LOCATION: "East US"
+  RESOURCEGROUPNAME: "akscustomerdemos"
+  LOCATION: "Central US"
   KEYVAULTNAME: "secretstorecsiakv"
   IMAGENAME: "secretstorecsiaksakv86bb"
   REGISTRYSKU: "Standard"
-  REGISTRYNAME: "secretstorecsiaksakvacr"
+  REGISTRYNAME: "akscustomerdemos0602-acr"
   REGISTRYLOCATION: "South Central US"
-  CLUSTERNAME: "secret-store-csi-aks-akv"
-  APPINSIGHTSLOCATION: "East US"
-  CLUSTERLOCATION: "East US"
+  CLUSTERNAME: "aksdemocluster0602"
+  APPINSIGHTSLOCATION: "Central US"
+  CLUSTERLOCATION: "Central US"
   AGENTCOUNT: "3"
   AGENTVMSIZE: "Standard_DS2_v2"
-  KUBERNETESVERSION: 1.17.13
-  OMSLOCATION: "East US"
-  OMSWORKSPACENAME: "secretstorecsiaksakv6b56"
+  KUBERNETESVERSION: 1.19.11
+  OMSLOCATION: "Central US"
+  OMSWORKSPACENAME: "akscustomerdemos-0602ws"
   HTTPSAPPLICATIONROUTINGENABLED: false
   KUBERNETESAPI: "apps/v1"
-  NAMESPACE: "secretstorecsiaksakvaa86"
+  NAMESPACE: "secretstorecsiaks"
 
 jobs:
   build:
